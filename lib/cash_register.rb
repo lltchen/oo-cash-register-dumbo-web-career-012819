@@ -12,7 +12,7 @@ class CashRegister
 
     def add_item(title,price,opi = nil)
       self.total += price
-        return total = (price * opi)
+        return seld.total = (price * opi)
          binding.pry
       end
     end
