@@ -12,7 +12,7 @@ class CashRegister
     def add_item(title,price,opi=nil)
       self.total += price
       if opi != nil
-        
+
         total += (price * opi)
         total
       end
