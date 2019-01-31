@@ -17,11 +17,14 @@ class CashRegister
       if opi != nil
        self.total = (price * opi)
        new_total << self.total
-      end
-
+     end
         new_total << self.total
+    end
 
-
+    def apply_discount
+      if self.discount != 0
+        self.total += self.discount
+      end  
     end
 
 end
