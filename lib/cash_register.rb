@@ -14,7 +14,9 @@ class CashRegister
         self.total += price
 
       if opi != nil 
+        binding.pry
        self.total = (price * opi)
+       
       end
     end
 
