@@ -19,6 +19,8 @@ class CashRegister
        binding.pry
 
       end
+      binding.pry
+
         new_total << self.total
         binding.pry
 
