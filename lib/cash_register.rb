@@ -14,7 +14,7 @@ class CashRegister
       if opi != nil
 
         total += (price * opi)
-        return total
+         total
       end
     end
 
